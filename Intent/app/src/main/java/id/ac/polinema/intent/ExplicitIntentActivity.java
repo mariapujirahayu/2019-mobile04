@@ -19,7 +19,6 @@ public class ExplicitIntentActivity extends AppCompatActivity{
     public void handleShow(View view) {
         EditText teksedit = (EditText) findViewById(R.id.input_name);
         TextView text = (TextView) findViewById(R.id.text_output);
-        //text.setText(teksedit.getText());
         text.setText("Hello "+teksedit.getText()+", Congratulations!");
     }
 }
